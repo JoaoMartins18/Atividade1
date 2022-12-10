@@ -18,7 +18,7 @@ while True:
         break
     elif(prestacao == 0):
         print(f"\nNúmero de prestações pagas = {cont}.")
-        print(f"\nO valor total das prestações é igual R$ {total}.")
+        print(f"\nO valor total das prestações é igual a R$ {total}.")
         break
     atraso = int(input("Qual a quantidade de dias em atraso? "))
     resultado = valorPagamento(prestacao,atraso)
